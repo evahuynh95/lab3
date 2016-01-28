@@ -9,14 +9,11 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Button is Pressed");
-		$("#testjs").text("Please wait...");
-		$(".jumbotron p").toggleClass("active");
+	/*$("#testjs").click(function(e) {	
 	});
 
 	$("a.thumbnail").click(projectClick);
-	$("#submitBtn").click(submitClick);
+	$("#submitBtn").click(submitClick);*/
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
 }

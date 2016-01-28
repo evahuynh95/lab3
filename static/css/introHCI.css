@@ -18,13 +18,12 @@ body {
 
 .jumbotron {
 	position: relative;
-	background: none;
+     background: url("../images/light.jpg");
      text-align: center;
 }
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
      opacity: 0.3;
      top: 0;
      left: 0;
@@ -49,14 +48,14 @@ body {
 
 #testjs {
      height: 45px;
-     margin-top: 50px;
+     margin-top: 20px;
 }
 
 .homeImages {
-     margin-top: 80px;
+     margin-top: 50px;
 }
 
 #startButton {
-     margin-top: 80px;
+     margin-top: 50px;
      text-align: center;
 }
